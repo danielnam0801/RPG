@@ -34,11 +34,12 @@ public class EnemyDroper : MonoBehaviour
         _enemyController.NavMovement.NavAgent.updatePosition = value;
         _enemyController.NavMovement.NavAgent.updateRotation = value;
         _enemyController.NavMovement.NavAgent.enabled = value;
-
     }
 
     public bool Drop()
     {
+        _enemyController.ResetToInitState();
+
         Vector3 currentPosition = transform.position;
 
         RaycastHit hit;

@@ -6,8 +6,6 @@ using UnityEngine.Events;
 
 public class EnemyController : PoolableMono
 {
-
-
     [SerializeField]
     protected CommonAIState _currentState;
     public CommonAIState CurrentState => _currentState;
@@ -90,6 +88,8 @@ public class EnemyController : PoolableMono
     {
         if (_enemyHealth.IsDead || !IsActive) return;
         _currentState?.UpdateState();
+
+        _actionData.IsGround = NavMovement.NavAgent.isOnNavMesh;
     }
 
     public UnityEvent OnAfterDead = null;
@@ -114,6 +114,11 @@ public class EnemyController : PoolableMono
         _navMovement.ResetNavAgent();
         ChangeState(_initState);
         _actionData.Init(); //액션데이터도 초기화
+    }
+
+    public void ResetToInitState()
+    {
+        ChangeState(_initState);
     }
 
     public void GotoPool()

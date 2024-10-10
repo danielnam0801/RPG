@@ -41,7 +41,6 @@ public class AgentController : MonoBehaviour
 
     private void Start()
     {
-        //다음시간에 여기 다시한번 설명
         ChangeState(StateType.Normal); //이부분만 스타트로 이동이 맞다.
     }
 

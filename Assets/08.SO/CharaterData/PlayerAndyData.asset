@@ -15,4 +15,4 @@ MonoBehaviour:
   BaseDamage: 5
   BaseCritical: 0.2
   BaseCriticalDamage: 2
-  MoveSpeed: 8
+  MoveSpeed: 5
