@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Enemies
+  m_EditorClassIdentifier: 
+  m_GroupName: Enemies
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 09772fae737f2bf44a512478ce21dbe6
+  m_SerializeEntries:
+  - m_GUID: 8e9ab507f0f873f42bcb779d7113e786
+    m_Address: HammerEnemy
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3c9f93756cc33b7428e35a5d4c95ce39
+    m_Address: LaserEnemy
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 1f9f7daeab0bee443a8c9c483fdf010c, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 4ff160b380ac2904ba2596522a06eeb1, type: 2}
+    - {fileID: 11400000, guid: 96586a24d4d67014f947356e00fb035e, type: 2}

@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Default Local Group
+  m_EditorClassIdentifier: 
+  m_GroupName: Default Local Group
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 993d3e5d8812d114dbc3c5a3078e1889
+  m_SerializeEntries:
+  - m_GUID: 49f13f7fc1375f545987331d5fa9f8e2
+    m_Address: Assets/03.Prefabs/EnemyPrefab/DropDecal.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 1f9f7daeab0bee443a8c9c483fdf010c, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: ce10d16a5a367bf4884c2ff39b0d3db0, type: 2}
+    - {fileID: 11400000, guid: ba1c7427694fd174bbb92bfc5c698a67, type: 2}
