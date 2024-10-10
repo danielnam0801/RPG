@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+
 using UnityEngine;
 
 public class AgentMovement : MonoBehaviour
@@ -46,7 +47,8 @@ public class AgentMovement : MonoBehaviour
         _movementVelocity *= _controller.CharData.MoveSpeed * Time.fixedDeltaTime;
         if(_movementVelocity.sqrMagnitude > 0)
         {
-            transform.rotation = Quaternion.LookRotation(_movementVelocity);
+            transform.rotation =
+                Quaternion.Lerp(transform.rotation, Quaternion.LookRotation(_movementVelocity), 0.5f);
         }
         
     }
