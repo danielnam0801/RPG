@@ -1,2 +1,2 @@
 # RPG
-방치형 RPG PJ
+3d 액션RPG PJ
